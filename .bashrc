@@ -19,9 +19,6 @@ if ! ssh-add -L >/dev/null 2>&1; then
   ssh-add ~/.ssh/id_rsa >/dev/null 2>&1
 fi
 
-LANG="en_US.UTF-8"
-export LANG
-
 export MOSH_SERVER_NETWORK_TMOUT=86400
 
 # don't put duplicate lines or lines starting with space in the history.
