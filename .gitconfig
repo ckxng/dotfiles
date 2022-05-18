@@ -1,0 +1,19 @@
+[core]
+# on windows:
+#       autocrlf = true
+# on linux:
+        autocrlf = input
+[alias]
+        lol  = log --oneline --decorate --graph --all --color=auto
+        co   = checkout
+        st   = status
+        ci   = commit
+        br   = branch
+        fe   = fetch --all
+        me   = merge --no-ff --no-commit
+        pull = pull --ffonly
+[push]
+        default = simple
+[user]
+	name = Cameron King
+	email = cking@ckxng.com
